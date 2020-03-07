@@ -10,5 +10,9 @@ def hello():
 def hello06():
     return "Pyae Sone Aung"
 
+@app.route("/kmh")
+def kmh():
+    return "Kyaw Myo Htoo"
+
 if __name__ == '__main__':
     app.run()
